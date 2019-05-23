@@ -45,6 +45,9 @@
     <ClInclude Include="VariousMonsters.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
+    <ClInclude Include="Matrix.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="PJE1626361_MonsterWorld_03.cpp">
