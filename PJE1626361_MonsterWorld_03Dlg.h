@@ -4,6 +4,11 @@
 
 #pragma once
 
+#ifdef UNICODE
+#pragma comment(linker, "/ENTRY:wWinMainCRTStartup /subsystem:console")
+#else
+#pragma comment(linker, "/ENTRY:WinMainCRTStartup /subsystem:console")
+#endif
 
 // CPJE1626361MonsterWorld03Dlg 대화 상자
 class CPJE1626361MonsterWorld03Dlg : public CDialogEx
